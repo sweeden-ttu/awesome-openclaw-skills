@@ -2,13 +2,18 @@
 
 ## Cursor Cloud specific instructions
 
-This is a **documentation-only repository** (an "awesome list") with no application code, no build system, and no services. It contains curated Markdown links to OpenClaw skills.
+This is a curated "awesome list" repository for OpenClaw skills. It contains Markdown content plus `openclaw` as an npm dependency.
 
 ### Repository structure
 
 - `README.md` — The curated awesome list (~2,868 skill entries)
 - `CONTRIBUTING.md` — Contribution guidelines
 - `LICENSE` — MIT License
+- `package.json` — npm manifest with `openclaw` dependency
+
+### Dependencies
+
+Run `npm install` to install dependencies (including `openclaw`). The `openclaw` CLI is then available via `npx openclaw`.
 
 ### Lint
 
